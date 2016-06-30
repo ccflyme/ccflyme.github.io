@@ -35,6 +35,8 @@ tags:
 
 微软在软件测试方面做的确实不错，用了这么多bug管理工具，个人觉得还是用TFS来管理bug最好，一方面能集中的根据项目来管理bug，另外一方面也能
 通过Charts一目了然地了解到Bug走势以及当前bug状态。
+下面是自己建的几个chart，效果感觉还不错。
+
 ![img](/img/in-post/Tfs-Bug-Charts.jpg)
 
 
