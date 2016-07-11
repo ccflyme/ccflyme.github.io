@@ -9,11 +9,17 @@ catalog:    false
 tags:
     - 工作
 ---
+>数据库的备份使用Sql Server Job来执行
+
+### 备份数据库
+
 ```sql
 DECLARE @SQLStatement VARCHAR(2000)
 SET @SQLStatement = 'S:\DbTemp\Dfyf.Bpm.bak'
 BACKUP DATABASE [Dfyf.Bpm] TO  DISK = @SQLStatement;
 ```
+
+### 压缩数据库到指定目录
 
 ```powershell
 Add-Type -Assembly "System.IO.Compression.FileSystem" ;
@@ -34,6 +40,8 @@ else {
    }
 Remove-Item S:\DbTemp\Dfyf.Bpm.bak
 ```
+
+### 删除指定目录下创建日期大于某个天数的文件
 
 ```powershell
 function Remove-FilesCreatedBeforeDate([parameter(Mandatory)][ValidateScript({Test-Path $_})][string] $Path, [parameter(Mandatory)][DateTime] $DateTime, [switch] $DeletePathIfEmpty, [switch] $OutputDeletedPaths, [switch] $WhatIf)
