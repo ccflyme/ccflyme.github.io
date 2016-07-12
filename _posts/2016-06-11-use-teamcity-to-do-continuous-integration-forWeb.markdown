@@ -29,14 +29,13 @@ xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 <Target Name="Publish">
   <Message Text="Configuration: $(Configuration)" />
   <!-- Platform=Any Cpu for Solution Files, Platform=AnyCpu for project files-->
-  <MSBuild Projects="$(Projects)"
-           Properties="Platform=AnyCPU;
-                       Configuration=$(Configuration);
-                       AutoParameterizationWebConfigConnectionStrings=False;
-                       DeployOnBuild=True;
-                       DeployTarget=Package;
-                       PackageLocation=_package;
-                       PackageAsSingleFile=False;"/>
+  <MSBuild Projects="$(Projects)" Properties="Platform=AnyCPU;
+                                              Configuration=$(Configuration);
+                                              AutoParameterizationWebConfigConnectionStrings=False;
+                                              DeployOnBuild=True;
+                                              DeployTarget=Package;
+                                              PackageLocation=_package;
+                                              PackageAsSingleFile=False;"/>
 </Target>
 </Project>
 ```
