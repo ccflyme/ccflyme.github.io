@@ -23,3 +23,11 @@ Program Files中Sql Server相关的再全部手动删除，注册表中的信息
 在装完系统之后重装Sql Server 2014吧。
 
 下次重装系统，一定记得把C盘空间给大一点，200G吧。因为现在自己习惯安装软件的时候，默认都给装在C盘了。
+
+删除Sql Server相关的注册表：
+![img](/img/in-post/Delete-SqlRelated-Regedit.jpg)
+
+安装Sql Server过程中报的错误：
+![img](/img/in-post/SqlServer-Installation_Issue-One.jpg)
+
+![img](/img/in-post/SqlServer-Installation_Issue-Two.jpg)
