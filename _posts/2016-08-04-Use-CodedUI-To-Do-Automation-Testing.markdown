@@ -7,6 +7,6 @@ author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
-    - 工作
+    - Automation Testing
 ---
 整个solution我已经整理在GitHub上了：[https://github.com/Tesla9527/Tesla.ItcastCater](https://github.com/Tesla9527/Tesla.ItcastCater)
