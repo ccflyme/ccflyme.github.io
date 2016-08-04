@@ -1,0 +1,12 @@
+---
+layout:     post
+title:      "使用WebDriver和C#做自动化测试(针对B/S架构App)"
+subtitle:   ""
+date:       2016-08-04
+author:     "Tesla9527"
+header-img: "img/home-bg-art.jpg"
+catalog:    false
+tags:
+    - 工作
+---
+整个solution我已经整理在GitHub上了：[https://github.com/Tesla9527/Tesla.CM](https://github.com/Tesla9527/Tesla.CM)
