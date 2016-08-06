@@ -81,8 +81,8 @@ xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 这里用的PowerShell来执行连接字符串的替换：
 
 ```powershell
-$connectionString = "Data Source=shaappt0001;Initial Catalog=Dfyf.Bpm.Test;Persist Security Info=true;User ID=sa;PWD=Passw0rd;Packet Size=4096;"
-$webConfigPath = "%teamcity.build.workingDir%\Dfyf.Bpm\web.config"
+$connectionString = "Data Source=shaappt0001;Initial Catalog=Demo.Test;Persist Security Info=true;User ID=YourAccount;PWD=YourPassword;Packet Size=4096;"
+$webConfigPath = "%teamcity.build.workingDir%\Demo.Test\web.config"
 $xml = [xml](get-content $webConfigPath)
 $root = $xml.get_DocumentElement();
 $root.connectionStrings.add.connectionString = $connectionString
@@ -90,32 +90,45 @@ $xml.Save($webConfigPath)
 ```
 
 ## Stop-WebAppPool
+![img](/img/in-post/teamcity5.jpg)
+
 ```powershell
-Stop-WebAppPool -Name "Dfyf.Bpm"
+Stop-WebAppPool -Name "Demo.Test"
 ```
 
 ## Stop-Website
+![img](/img/in-post/teamcity6.jpg)
+
 ```powershell
-Stop-Website "Dfyf.Bpm"
+Stop-Website "Demo.Test"
 ```
 
 ## Deploy web app to server
+![img](/img/in-post/teamcity7.jpg)
 
+```
 "C:\Program Files\IIS\Microsoft Web Deploy V3\msdeploy.exe" -verb:sync -source:contentPath="%teamcity.build.workingDir%\%env.PackagePath%\" -dest:contentPath="%env.DestinationSite%"
-记住在填入这个脚本的时候一定不要在里面换行，要不然TeamCity可能会不认识，导致编译不通过。
+```
+>Note：记住在填入这个脚本的时候一定不要在里面换行，要不然TeamCity可能会不认识，导致编译不通过。
+
+环境变量的设置：
+![img](/img/in-post/teamcity10.jpg)
 
 ## Start-Website
+![img](/img/in-post/teamcity8.jpg)
+
 ```powershell
-Start-Website "Dfyf.Bpm"
+Start-Website "Demo.Test"
 ```
 
 ## Start-WebAppPool
+![img](/img/in-post/teamcity9.jpg)
 
 ```powershell
 for($i=1; $i -le 10; $i++)
 {
-    Start-WebAppPool -name "Dfyf.Bpm";
-    if((get-WebAppPoolState -name "Dfyf.Bpm").Value -eq "Started")
+    Start-WebAppPool -name "Demo.Test";
+    if((get-WebAppPoolState -name "Demo.Test").Value -eq "Started")
     {
         break;
     }
