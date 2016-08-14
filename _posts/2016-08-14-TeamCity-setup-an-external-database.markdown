@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
-    - Teamcity
+    - TeamCity
 ---
 
 今天看到Teamcity提示我说我目前使用的是Teamcity的internal的database，如果用一个external的database的话，会有很多好处。于是就想办法去实现这个。

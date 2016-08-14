@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
-    - Teamcity
+    - TeamCity
 ---
 
 配置如下：
