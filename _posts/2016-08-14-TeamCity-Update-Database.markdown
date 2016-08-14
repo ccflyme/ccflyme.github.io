@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
-    - JMeter
+    - Teamcity
 ---
 
 在Visual Studio中可以直接在Package Manager Console中执行相关命令就可以了，还好code first提供了一个不错的工具migrate.exe，这样在命令行中就可以完成同样的效果了。
