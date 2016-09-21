@@ -8,6 +8,7 @@ header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
     - C#
+	- React 
 ---
 最近在学习js，在想怎么样把自己学的知识用一个项目全都融合一起。苦思良久，想到了之前学C#时候做的一个Online Shopping Store，觉得应该可以
 把这个项目继续改造，这样就可以达到实战练习的目的了。
