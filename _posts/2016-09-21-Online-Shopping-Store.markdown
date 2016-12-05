@@ -35,3 +35,5 @@ tags:
 项目命名：Tesla.EShop
 
 先实现注册登录，个人中心。（已实现，目前需要弄清楚Entity和Model之间的关系）
+
+晚上请教了一下徐瑞，了解到Entity是和数据库中的Table对应，Model其实是ViewModel，相当于Dto，和页面上的字段对应。还需要研究一下EntityFramework中的DbContext到底应该要怎么样设置，因为MVC模板中已经有一个DbContext了，这2个怎么整合到一起。自己之前想的用一个工程来专门配置EntityFramework，看来没有必要，直接配置在Model的Project中就可以了。
