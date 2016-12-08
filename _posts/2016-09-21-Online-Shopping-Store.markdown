@@ -37,3 +37,5 @@ tags:
 先实现注册登录，个人中心。（已实现，目前需要弄清楚Entity和Model之间的关系）
 
 晚上请教了一下徐瑞，了解到Entity是和数据库中的Table对应，Model其实是ViewModel，相当于Dto，和页面上的字段对应。还需要研究一下EntityFramework中的DbContext到底应该要怎么样设置，因为MVC模板中已经有一个DbContext了，这2个怎么整合到一起。自己之前想的用一个工程来专门配置EntityFramework，看来没有必要，直接配置在Model的Project中就可以了。
+
+今晚再次向徐瑞请教，通过继承完美地配置好了DbContext。也觉得MVC无论是从代码的分层设计，还是从大的角度来看，都是非常精准的。我们处理的是数据，用Model来代表，无论数据存放在什么数据库里面，另外就是Controller，通过路由指向数据的处理逻辑，最后是View，数据经过处理之后展现在用户面前。
