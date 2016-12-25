@@ -12,7 +12,9 @@ tags:
     - HTML
 ---
 最近在学习js，在想怎么样把自己学的知识用一个项目全都融合一起。苦思良久，想到了之前学C#时候做的一个Online Shopping Store，觉得应该可以
-把这个项目继续改造，这样就可以达到实战练习的目的了。
+把这个项目继续改造，这样就可以达到实战练习的目的了。下面是原作者Ripon Datta的视频讲解：
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qjor9moLr6M?list=PLJUoF2h8Z-brW94dTZ-ZIOhjFq90_lt5K" frameborder="0" allowfullscreen></iframe>
+
 
 今天和Emcee聊了下，自己最近很疑惑，我们的项目前端页面是用纯html写的，那是怎么控制某个路由下面应该显示某个页面呢？MVC的话是用controller
 来控制的。原来是用AngularJS的前端路由来控制的。
