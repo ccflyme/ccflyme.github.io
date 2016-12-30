@@ -14,5 +14,5 @@ Sql Server数据库的log文件增长的太快了，今天准备还原正在开�
 后来用Visual Studio的Schema Compare和SSMS的Import Data解决了这个问题。
 
 1. 新建一个新的空库
-2. 使用Visual Studio的Schema Compare来对比原始库和新库，update之后会将原始库的Schema，PK，Index，Procedure，Index，Function等等全都复制到新库上
+2. 使用Visual Studio的Schema Compare来对比原始库和新库，update之后会将原始库的Schema，PK，Index，Procedure，Function等等全都复制到新库上
 3. 使用SSMS的Import Data从原始库导入数据到新库
