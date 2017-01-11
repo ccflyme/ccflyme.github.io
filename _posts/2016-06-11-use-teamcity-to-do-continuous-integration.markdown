@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "使用TeamCity做Web app的持续编译、发布和部署"
+title:      "使用TeamCity做持续集成"
 subtitle:   ""
 date:       2016-06-11
 author:     "Tesla9527"
