@@ -16,10 +16,13 @@ tags:
 后来在我本地安装的时候，使用local账号，结果可以看到Dashboard。至于之前使用域账号为什么不行，已经给官方发了邮件，等待回复中。
 
 2017-01-23，VS中在想要发布的工程下添加OctoPack，执行下面的命令后成功地生成了nuget包，并且用NeGet Package Explorer成功打开。
+```
 msbuild E:\Yooya\Sl.Bpm\Bpm.Hmgd.Com-branch\Bpm.Hmgd.Com.sln /t:Build /p:RunOctoPack=true
+```
 
-一般来说，和采用publish方式生成的文件一样，但是我们这个工程有点特殊，需要将cs文件也当成和html、js一样的文件发布出来。所以在cs文件的属性中，将Build Action改
-为Content就解决了这个问题。
+一般来说，和采用publish方式生成的文件一样，但是我们这个工程有点特殊，需要将cs文件也当成和html、js一样的文件发布出来。所以在cs文件的属性中，将Build Action
+从Compile改为Content就解决了这个问题。
+
 修改前：
 ![img](/img/in-post/Octopus1.jpg)
 修改后：
