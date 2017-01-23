@@ -28,3 +28,6 @@ msbuild E:\Yooya\Sl.Bpm\Bpm.Hmgd.Com-branch\Bpm.Hmgd.Com.sln /t:Build /p:RunOcto
 ![img](/img/in-post/Octopus1.jpg)
 修改后：
 ![img](/img/in-post/Octopus2.jpg)
+
+最后生成的Nuget包就包含了cs文件：
+![img](/img/in-post/Octopus3.jpg)
