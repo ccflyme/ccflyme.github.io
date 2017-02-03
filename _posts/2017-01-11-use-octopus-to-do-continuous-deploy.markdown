@@ -31,3 +31,6 @@ msbuild E:\Yooya\Sl.Bpm\Bpm.Hmgd.Com-branch\Bpm.Hmgd.Com.sln /t:Build /p:RunOcto
 
 最后生成的Nuget包就包含了cs文件：
 ![img](/img/in-post/Octopus3.jpg)
+
+2017-02-03，我们的项目比较特别，需要某些cs文件content include的同时compile include，所以只能放弃Nuget包，改用之前的zip包了。虽然和Nuget包比起来，
+稍微损失了一点性能，但还是能将部署的过程自动化掉。
