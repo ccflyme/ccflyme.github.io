@@ -34,3 +34,6 @@ msbuild E:\Yooya\Sl.Bpm\Bpm.Hmgd.Com-branch\Bpm.Hmgd.Com.sln /t:Build /p:RunOcto
 
 2017-02-03，我们的项目比较特别，需要某些cs文件content include的同时compile include，所以只能放弃Nuget包，改用之前的zip包了。虽然和Nuget包比起来，
 稍微损失了一点性能，但还是能将部署的过程自动化掉。
+
+2017-02-05，成功地将TeamCity生成的zip包push到Octopus，并且也可以通过TeamCity中的Octopus Create Release这个step来自动的deploy。但是我觉得既然用了
+Octopus，那么部署的事情还是完全交给Octopus来做比较好。TeamCity只要负责把生成好的包push给Octopus就好了。
