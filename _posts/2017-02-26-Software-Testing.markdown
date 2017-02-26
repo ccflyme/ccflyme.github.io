@@ -18,6 +18,9 @@ Test Scenarios
 Test Cases
 	There are many tools to write test cases like word, excel etc. But I hate to use word to write test cases, it's fucking bad.
 
+A good question to be asked in an interview: What is the difference between Test Scenarios and Test Cases?
+“Test Case is ‘How to be tested’ and Test Scenario is ‘What to be tested’”.
+
 Test Management Tools
 	1. TFS(I think Microsoft dones very well in testing, so if your team is using TFS, then just use it to do test management. It is really good.)
 	2. JIRA
