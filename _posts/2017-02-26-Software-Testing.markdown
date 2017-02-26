@@ -18,6 +18,6 @@ Test Scenarios
 Test Cases
 
 Test Management Tools
-	1. TFS
+	1. TFS(I think Microsoft dones very well in testing, so if your team is using TFS, then just use it to do test management. It is really good.)
 	2. JIRA
 	3. HP Quality Center
