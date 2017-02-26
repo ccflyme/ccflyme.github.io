@@ -18,7 +18,7 @@ Test Scenarios
 Test Cases
 	There are many tools to write test cases like word, excel etc. But I hate to use word to write test cases, it's fucking bad.
 
-A good question to be asked in an interview: What is the difference between Test Scenarios and Test Cases?
+A good question to be asked in an interview: What is the difference between Test Cases and Test Scenarios?
 “Test Case is ‘How to be tested’ and Test Scenario is ‘What to be tested’”.
 
 Test Management Tools
