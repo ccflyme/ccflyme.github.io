@@ -23,6 +23,12 @@ tags:
 Gogs支持的数据库挺多的，由于是在Windows上操作，我就用MSSQL了。
 ![img](/img/in-post/gogs1.jpg)
 
+## 安装Gogs
+在Gogs官网上找到二进制安装下载，解压到某个路径下。
+![img](/img/in-post/gogs2.jpg)
+执行.\gogs.exe web
+![img](/img/in-post/gogs3.jpg)
+
 
 
 
