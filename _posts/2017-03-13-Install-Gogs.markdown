@@ -4,7 +4,7 @@ title:      "在Windows中安装Gogs"
 subtitle:   ""
 date:       2017-03-13
 author:     "Tesla9527"
-header-img: "img/Gogs.jpg"
+header-img: "img/gogs.jpg"
 catalog:    false
 tags:
     - Gogs
