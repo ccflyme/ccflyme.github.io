@@ -32,7 +32,7 @@ Gogs支持的数据库挺多的，由于是在Windows上操作，我就用MSSQL�
 ![img](/img/in-post/gogs2.jpg)
 执行.\gogs.exe web
 ![img](/img/in-post/gogs3.jpg)
-成功启动后，可以在gogs目录下建立了custom/conf/app.ini,这个config文件。
+成功启动后，自动在gogs目录下建立了custom/conf/app.ini,这是个config文件。
 进入http://127.0.0.1:3000配置页面，按照官网说明完成配置。
 
 ## 设定Windows Service
