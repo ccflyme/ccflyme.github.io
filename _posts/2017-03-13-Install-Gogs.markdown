@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "在Windows中安装Gogs"
+title:      "安装Gogs"
 subtitle:   ""
 date:       2017-03-13
 author:     "Tesla9527"
