@@ -14,10 +14,10 @@ tags:
 
 材料准备
 
-	Windows OS
-	MSSQL
-	Git For Windows
-	Gogs
+	1.Windows OS
+	2.MSSQL
+	3.Git For Windows
+	4.Gogs
 
 安装步骤
 ## 安装Git For Windows
