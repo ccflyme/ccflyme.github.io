@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "从一个正在使用的Sql Server数据库复制Schema和Data到一个空的库"
+title:      "压缩MS SQL Server数据库的log文件"
 subtitle:   ""
 date:       2016-12-27
 author:     "Tesla9527"
@@ -21,11 +21,11 @@ Sql Server数据库的log文件增长的太快了，今天准备还原正在开�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9OGrtiZcCa8" frameborder="0" allowfullscreen></iframe>
 
 总结下来就是：
-step1. 将备份模式修改为Simple模式
-step2. 选择Tasks->Shrink->File
-step3. 文件类型选择Log
-step4. Shrink action选择第一个Release unused space，点击OK
-step5： 将备份模式修改为Full模式
+	step1. 将备份模式修改为Simple模式
+	step2. 选择Tasks->Shrink->File
+	step3. 文件类型选择Log
+	step4. Shrink action选择第一个Release unused space，点击OK
+	step5： 将备份模式修改为Full模式
 
 
 
