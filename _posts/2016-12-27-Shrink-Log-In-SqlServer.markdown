@@ -21,11 +21,9 @@ Sql Server数据库的log文件增长的太快了，今天准备还原正在开�
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9OGrtiZcCa8" frameborder="0" allowfullscreen></iframe>
 
 总结下来就是：
+
 	1. 将备份模式修改为Simple模式
 	2. 选择Tasks->Shrink->File
 	3. 文件类型选择Log
 	4. Shrink action选择第一个Release unused space，点击OK
 	5： 将备份模式修改为Full模式
-
-
-
