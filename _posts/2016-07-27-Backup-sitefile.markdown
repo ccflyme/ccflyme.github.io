@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
 catalog:    false
 tags:
-    - 工作
+    - Powershell
 ---
 每次给站点发布新版本时，都要备份一下当前版本。每次手工来操作真的很麻烦。还好可以用脚本来实现自动备份。
 

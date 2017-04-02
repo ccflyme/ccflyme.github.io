@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-o.jpg"
 catalog:    false
 tags:
-    - 工作
+    - Powershell
 ---
 >数据库的备份使用Sql Server Job来执行
 
