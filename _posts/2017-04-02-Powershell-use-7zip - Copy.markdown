@@ -9,7 +9,7 @@ catalog:    false
 tags:
     - Powershell
 ---
-原文地址： [http://stackoverflow.com/questions/25287994/running-7-zip-from-within-a-powershell-script]
+原文地址： [http://stackoverflow.com/questions/25287994/running-7-zip-from-within-a-powershell-script](http://stackoverflow.com/questions/25287994/running-7-zip-from-within-a-powershell-script)
 ```powershell
 if (-not (test-path "$env:ProgramFiles\7-Zip\7z.exe")) {throw "$env:ProgramFiles\7-Zip\7z.exe needed"} 
 set-alias sz "$env:ProgramFiles\7-Zip\7z.exe"  
