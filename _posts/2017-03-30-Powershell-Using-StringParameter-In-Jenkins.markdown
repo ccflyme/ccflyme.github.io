@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-03-30
 author:     "Tesla9527"
 header-img: "img/home-bg-art.jpg"
-catalog:    true
+catalog:    false
 tags:
     - Jenkins
 ---
