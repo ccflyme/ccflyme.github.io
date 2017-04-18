@@ -21,7 +21,8 @@ tags:
 这段时间在新公司里，参考老大的框架，使用Python把接口测试做完了。其中urllib模块被我换成了requests模块，使用起来会更加方便一点。在文件夹中的__init__.py文件中也去掉了路径的设置，留了
 一个空文件，但是却能确保该文件夹下的模块能方便的被其他地方引用。
 
-接下来需要继续学习python，并使用python写一些接口，然后将现有框架整理成一个Demo放在Github上，这样以后如果有接口测试的需求，直接代码拿下来，就可以参照着模板写接口测试了。
+代码链接：
+[https://github.com/Tesla9527/InterfaceTesting](https://github.com/Tesla9527/InterfaceTesting)
 
 
 
