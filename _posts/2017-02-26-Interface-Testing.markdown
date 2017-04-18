@@ -29,9 +29,9 @@ tags:
 
 接口测试一定要集成CI才能更好的发挥效果，集成起来比较简单，直接通过命令行调用就可以了。
 
-python your_dir\test_runner.py
+	python your_dir\test_runner.py
 
 Jenkins中发布测试报告：
 
-我们在接口测试中使用的是xmlrunner，会生成xml的report。在Jenkins中Post-build Actions，选用Publish JUnit test result report。 Test Report XMLs配置为reports/report*.xml
+	我们在接口测试中使用的是xmlrunner，会生成xml的report。在Jenkins中Post-build Actions，选用Publish JUnit test result report。 Test Report XMLs配置为reports/report*.xml
 
