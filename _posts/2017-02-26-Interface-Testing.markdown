@@ -28,6 +28,7 @@ tags:
 集成Jenkins：
 
 接口测试一定要集成CI才能更好的发挥效果，集成起来比较简单，直接通过命令行调用就可以了。
+
 python your_dir\test_runner.py
 
 Jenkins中发布测试报告：
