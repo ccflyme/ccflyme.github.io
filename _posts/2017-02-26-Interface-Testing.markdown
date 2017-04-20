@@ -37,3 +37,5 @@ Jenkins中发布测试报告：
 
 我们在接口测试中使用的是xmlrunner，会生成xml的report。在Jenkins中Post-build Actions，选用Publish JUnit test result report。 Test Report XMLs配置为reports/report*.xml
 
+PS：另外我觉得postman作为测试工具，用在开发对自己所写接口的测试上，还是挺方便的。但是用在专门的接口测试，还是没有直接用代码写来得灵活。
+
