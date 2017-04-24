@@ -36,6 +36,7 @@ tags:
 为了方便在Jenkins中执行时，可以选择一些参数来指定在什么环境下执行哪些test cases，我在test_runner中使用了argparse模块。在上面的代码例子中，我使用了3个参数，
 一个是env，用来指定测试环境，一个是port，用来指定测试的端口，一个是suite，用来指定测试套件。在命令行中不加入参数执行上面的命令时，会使用配置的默认参数值来运行，当想传入某些参数执行测试时，
 比如传入suite的值，
+
 	python your_dir\test_runner.py -s smoke
 	
 就会执行smoke test cases。当然这个-s后面具体是传入smoke还是full还是其他值，完全就可以通过Jenkins的参数来传入了。
