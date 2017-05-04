@@ -27,3 +27,26 @@ Sql Server数据库的log文件增长的太快了，今天准备还原正在开�
 	3. 文件类型选择Log
 	4. Shrink action选择第一个Release unused space，点击OK
 	5. 将备份模式修改为Full模式
+	
+小乐提供了通过脚本的方式压缩数据库：
+
+```sql
+USE [Weixin.Kia]; 
+GO
+
+-- Truncate the log by changing the database recovery model to SIMPLE.
+
+ALTER DATABASE [Weixin.Kia] SET RECOVERY SIMPLE;
+
+GO
+
+-- Shrink the trun cated log file to 1 MB.
+
+DBCC SHRINKFILE ([Weixin.Kia_Log], 1024); 
+GO
+
+-- Reset the database recovery model.
+
+ALTER DATABASE [Weixin.Kia] SET RECOVERY FULL; 
+GO
+```
