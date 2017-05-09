@@ -18,7 +18,7 @@ from checksumdir import dirhash
 def check_dir_hash(directory):
     md5hash = dirhash(directory, 'md5')
     sha1hash = dirhash(directory, 'sha1')
-    print('directory: %s:' % directory)
+    print('directory: %s' % directory)
     print("md5 value : %s" % md5hash)
     print("sha1 value : %s" % sha1hash)
     return {'md5hash': md5hash, 'sha1hash': sha1hash}
