@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "执行压力测试时，选择好时间"
+title:      "执行压力测试时，选择好时间段"
 subtitle:   ""
 date:       2017-05-12
 author:     "Tesla9527"
