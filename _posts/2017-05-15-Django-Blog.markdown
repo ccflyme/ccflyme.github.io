@@ -10,6 +10,10 @@ tags:
     - Python
     - Django
 ---
-pass
+参考资料：
+[https://www.pythonprogramming.net/django-web-development-with-python-intro/](https://www.pythonprogramming.net/django-web-development-with-python-intro/)
+
+完成后的代码地址：
+[https://github.com/Tesla9527/django_tutorial](https://github.com/Tesla9527/django_tutorial)
 
 
