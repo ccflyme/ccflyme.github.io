@@ -16,4 +16,4 @@ tags:
 完成后的代码地址：
 [https://github.com/Tesla9527/django_tutorial](https://github.com/Tesla9527/django_tutorial)
 
-
+下面对细节进行分析：
