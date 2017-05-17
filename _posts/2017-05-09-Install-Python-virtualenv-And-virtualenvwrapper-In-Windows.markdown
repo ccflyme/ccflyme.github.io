@@ -28,14 +28,14 @@ virtualenv
 	
 	![img](/img/in-post/virtualenv2.jpg)
 	
-	注： 1) 虚拟环境位于当前命令的目录下 这里是 C:\
-        2) 虚拟环境名称为 testvir
+		1) 虚拟环境位于当前命令的目录下 这里是 C:\
+		2) 虚拟环境名称为 testvir
 		
 3. 进入虚拟环境
 	
-	1) 进入虚拟环境目录： cd C:\
-	2) 进入脚本目录：     cd testvir\Scripts
-	3) 运行activate.bat:  activate.bat
+		1) 进入虚拟环境目录： cd C:\
+		2) 进入脚本目录：     cd testvir\Scripts
+		3) 运行activate.bat:  activate.bat
 	
 	![img](/img/in-post/virtualenv3.jpg)
 	
