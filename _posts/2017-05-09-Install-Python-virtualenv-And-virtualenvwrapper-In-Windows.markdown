@@ -57,7 +57,9 @@ virtualenv
 		deactivate.bat
 	
 	![img](/img/in-post/virtualenv6.jpg)
-	
+
+---
+
 virtualenvwrapper
 
 上面每次进入virtual我们都需要进入到virtualenv的目录下，一旦virtualenv过多，就蛋疼了，接下来隆重推荐virtualenvwrapper
