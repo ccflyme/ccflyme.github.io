@@ -80,7 +80,7 @@ tags:
 	
 	![img](/img/in-post/virtualenv9.jpg)
 	
-	注：因为前一步设置了WORK_HOME，所有虚拟环境将安装到 E:\python_virtual_env\testvir
+	注：因为前一步设置了WORK_HOME，所有虚拟环境将安装到 E:\python_virtual_env\testvir，另外，该命令不支持powershell
 	
 3. 查看安装的所有虚拟环境
 		
