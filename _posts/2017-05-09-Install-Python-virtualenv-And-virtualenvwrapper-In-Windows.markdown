@@ -17,14 +17,14 @@ virtualenv
 
 1. 安装virtualenv
 
-	pip install virtualenv
+		pip install virtualenv
 	
 	![img](/img/in-post/virtualenv1.jpg)
 	
 
 2. 新建虚拟环境
 
-	virtualenv testvir
+		virtualenv testvir
 	
 	![img](/img/in-post/virtualenv2.jpg)
 	
@@ -40,20 +40,20 @@ virtualenv
 	![img](/img/in-post/virtualenv3.jpg)
 	
 	查看虚拟环境中默认安装的库
-	pip list
+		pip list
 	
 	![img](/img/in-post/virtualenv4.jpg)
 	
 4. 虚拟环境下安装开发库， 这里以requests库为参考
 
-	pip install request
+		pip install request
 	
 	![img](/img/in-post/virtualenv5.jpg)
 	
 
 5. 退出virtualenv
 
-	deactivate.bat
+		deactivate.bat
 	
 	![img](/img/in-post/virtualenv6.jpg)
 	
@@ -61,7 +61,7 @@ virtualenvwrapper
 上面每次进入virtual我们都需要进入到virtualenv的目录下，一旦virtualenv过多，就蛋疼了，接下来隆重推荐virtualenvwrapper
 1. 安装virtualenvwrapper
 	
-	pip install virtualenvwrapper-win
+		pip install virtualenvwrapper-win
 	注： linux下运行pip install virtualenvwrapper
 	
 	![img](/img/in-post/virtualenv7.jpg)
@@ -72,24 +72,28 @@ virtualenvwrapper
 	
 2. 新建虚拟环境
 
-	mkvirtualenv testvir
+		mkvirtualenv testvir
 	
 	![img](/img/in-post/virtualenv9.jpg)
 	
 	注：因为前一步设置了WORK_HOME，所有虚拟环境将安装到 E:\python_virtual_env\testvir
 	
 3. 查看安装的所有虚拟环境
-	workon
+		
+		workon
 	
 	![img](/img/in-post/virtualenv10.jpg)
 	
 4. 进入虚拟环境
-	workon testvir
+		
+		workon testvir
 	
 	![img](/img/in-post/virtualenv11.jpg)
 	
 5. 退出虚拟环境
-	deactivate
+		
+		deactivate
+		
 	![img](/img/in-post/virtualenv12.jpg)
 	
 	
