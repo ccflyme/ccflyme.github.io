@@ -13,7 +13,7 @@ tags:
 原文地址：
 [http://blog.csdn.net/shaququ/article/details/54292043](http://blog.csdn.net/shaququ/article/details/54292043)
 
-virtualenv
+#virtualenv
 
 1. 安装virtualenv
 
@@ -60,7 +60,7 @@ virtualenv
 
 ---
 
-virtualenvwrapper
+#virtualenvwrapper
 
 上面每次进入virtual我们都需要进入到virtualenv的目录下，一旦virtualenv过多，就蛋疼了，接下来隆重推荐virtualenvwrapper
 1. 安装virtualenvwrapper
