@@ -19,14 +19,14 @@ virtualenv
 
 		pip install virtualenv
 	
-	![img](/img/in-post/virtualenv1.jpg)
+![img](/img/in-post/virtualenv1.jpg)
 	
 
 2. 新建虚拟环境
 
 		virtualenv testvir
 	
-	![img](/img/in-post/virtualenv2.jpg)
+![img](/img/in-post/virtualenv2.jpg)
 	
 	注： 1) 虚拟环境位于当前命令的目录下 这里是 C:\
         2) 虚拟环境名称为 testvir
@@ -37,7 +37,7 @@ virtualenv
 	2) 进入脚本目录：     cd testvir\Scripts
 	3) 运行activate.bat:  activate.bat
 	
-	![img](/img/in-post/virtualenv3.jpg)
+![img](/img/in-post/virtualenv3.jpg)
 	
 	查看虚拟环境中默认安装的库
 	
