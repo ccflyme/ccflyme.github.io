@@ -28,8 +28,8 @@ virtualenv
 	
 	![img](/img/in-post/virtualenv2.jpg)
 	
-	注： 1. 虚拟环境位于当前命令的目录下 这里是 C:\
-        2. 虚拟环境名称为 testvir
+	注： 1) 虚拟环境位于当前命令的目录下 这里是 C:\
+        2) 虚拟环境名称为 testvir
 		
 3. 进入虚拟环境
 	
@@ -40,6 +40,7 @@ virtualenv
 	![img](/img/in-post/virtualenv3.jpg)
 	
 	查看虚拟环境中默认安装的库
+	
 		pip list
 	
 	![img](/img/in-post/virtualenv4.jpg)
