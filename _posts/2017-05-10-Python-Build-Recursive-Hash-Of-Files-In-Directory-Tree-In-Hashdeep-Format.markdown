@@ -48,9 +48,11 @@ def compare_recursive_hash(dir1, dir2):
     hash_list1 = get_recursive_hash(dir1)
     hash_list2 = get_recursive_hash(dir2)
     if hash_list1 == hash_list2:
-	    print('hash same')
+        print('hash same')
+        return True
     else:
         print('hash not same')
+        return False
 
 
 compare_recursive_hash('E:\\dir1\\', 'E:\\dir2\\')
