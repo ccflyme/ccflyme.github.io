@@ -9,7 +9,7 @@ catalog:    false
 tags:
     - Python
 ---
-使用的是[https://gist.github.com/techtonik/5175896](https://gist.github.com/techtonik/5175896),下面我只是增加了一下检测目录和输出文件
+使用的是[https://gist.github.com/techtonik/5175896](https://gist.github.com/techtonik/5175896),下面我只是增加了一下对比
 
 ```python
 import os
@@ -29,20 +29,31 @@ def filehash(filepath):
     return sha.hexdigest()
 
 
-def get_recursive_hash(dir_root, file_path):
+def get_recursive_hash(dir_root):
     print('size,sha256,filename')
-    hash_output_file = open(file_path, 'w')
+    hash_list = []
     for root, dirs, files in os.walk(dir_root):
         for fpath in [osp.join(root, f) for f in files]:
             size = osp.getsize(fpath)
             sha = filehash(fpath)
             name = osp.relpath(fpath, dir_root)
+            hash_list.append(size)
+            hash_list.append(sha)
+            hash_list.append(name)
             print('%s,%s,%s' % (size, sha, name))
-            hash_output_file.write('%s,%s,%s\n' % (size, sha, name))
-    hash_output_file.close()
+    return hash_list
 
 
-get_recursive_hash('E:/Github', 'E:/hash_output_file.txt')
+def compare_recursive_hash(dir1, dir2):
+    hash_list1 = get_recursive_hash(dir1)
+    hash_list2 = get_recursive_hash(dir2)
+    if hash_list1 == hash_list2:
+	    print('hash same')
+    else:
+        print('hash not same')
+
+
+compare_recursive_hash('E:\\HySyncTestDir\\debug\\cp\\revision21966\\', 'E:\\HySyncTestDir\\debug\\cp\\revision21966\\')
 ```
 
 
