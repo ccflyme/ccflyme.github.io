@@ -53,7 +53,7 @@ def compare_recursive_hash(dir1, dir2):
         print('hash not same')
 
 
-compare_recursive_hash('E:\\HySyncTestDir\\debug\\cp\\revision21966\\', 'E:\\HySyncTestDir\\debug\\cp\\revision21966\\')
+compare_recursive_hash('E:\\dir1\\', 'E:\\dir2\\')
 ```
 
 
