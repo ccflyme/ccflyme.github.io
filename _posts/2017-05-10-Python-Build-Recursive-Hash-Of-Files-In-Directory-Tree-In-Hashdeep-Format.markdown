@@ -37,10 +37,8 @@ def get_recursive_hash(dir_root):
             size = osp.getsize(fpath)
             sha = filehash(fpath)
             name = osp.relpath(fpath, dir_root)
-            hash_list.append(size)
-            hash_list.append(sha)
-            hash_list.append(name)
-            print('%s,%s,%s' % (size, sha, name))
+            hash_list.append({'size': size, 'sha': sha, 'name':name})
+	print hash_list
     return hash_list
 
 
