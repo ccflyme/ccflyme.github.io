@@ -25,6 +25,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 	
 * Performance Testing
     * [JMeter](http://jmeter.apache.org/)
+	* [Postman](https://www.getpostman.com/)
 	
 * Continuous Integration
     * [Jenkins](https://jenkins.io/)
