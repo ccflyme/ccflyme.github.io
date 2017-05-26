@@ -42,4 +42,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程
     * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif
     * [BareTail](https://www.baremetalsoft.com/baretail/) - 查看实时log
+	* [石墨文档](https://shimo.im) - 在线文档编辑
+	* [teambition](https://www.teambition.com) - 项目协作工具，我本人用来管理个人工作计划
+	* [ProcessOn](https://www.processon.com/) - 在线作图工具，用来制作思维导图，流程图等.
 	
