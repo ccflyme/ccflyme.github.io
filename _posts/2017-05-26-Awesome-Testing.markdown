@@ -32,3 +32,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 	
 * Continuous Delivery
     * [Octopus](https://octopus.com/)
+	
+* Script
+    * [Python](https://www.python.org/)
+    * [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
