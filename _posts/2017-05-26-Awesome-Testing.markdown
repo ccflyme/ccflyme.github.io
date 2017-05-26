@@ -16,8 +16,8 @@ A curated list of awesome software testing tools.
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-* Testing Frameworks
-    * [hypothesis](https://github.com/HypothesisWorks/hypothesis-python) - Hypothesis is an advanced Quickcheck style property based testing library.
+* Automation Testing Frameworks
+    * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - Automated tests that drive your application through its user interface (UI) are known as coded UI tests .
     * [mamba](http://nestorsalceda.github.io/mamba/) - The definitive testing tool for Python. Born under the banner of BDD.
     * [nose](https://github.com/nose-devs/nose) - A nicer unittest for Python.
     * [nose2](https://github.com/nose-devs/nose2) - The successor to nose, based on unittest2.
