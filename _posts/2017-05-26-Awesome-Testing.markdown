@@ -17,13 +17,6 @@ A curated list of awesome software testing tools.
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 * Automation Testing Frameworks
-    * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - Automated tests that drive your application through its user interface (UI) are known as coded UI tests .
-    * [mamba](http://nestorsalceda.github.io/mamba/) - The definitive testing tool for Python. Born under the banner of BDD.
-    * [nose](https://github.com/nose-devs/nose) - A nicer unittest for Python.
-    * [nose2](https://github.com/nose-devs/nose2) - The successor to nose, based on unittest2.
-    * [pytest](http://pytest.org/latest/) - A mature full-featured Python testing tool.
-    * [Robot Framework](https://github.com/robotframework/robotframework) - A generic test automation framework.
+    * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - Client desktop UI automation testing framework.
+    * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web UI automation testing framework.
     * [unittest](https://docs.python.org/2/library/unittest.html) - (Python standard library) Unit testing framework.
-* Test Runners
-    * [green](https://github.com/CleanCut/green) - A clean, colorful test runner.
-    * [tox](https://tox.readthedocs.io/) - Auto builds and tests distributions in multiple Python versions
