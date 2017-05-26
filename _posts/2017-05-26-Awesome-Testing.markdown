@@ -46,4 +46,5 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 	* [Teambition](https://www.teambition.com) - 项目协作工具，我本人用来管理个人工作计划
 	* [ProcessOn](https://www.processon.com/) - 在线作图工具，用来制作思维导图，流程图等.
     * [ASG-Remote Desktop](http://www.visionapp.com/germany/solutions/asg-remote-desktop.html) - 远程桌面工具.
+    * [HeidiSQL](https://www.heidisql.com/) - SQL连接工具.	
 	
