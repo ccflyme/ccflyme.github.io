@@ -29,3 +29,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * Continuous Integration
     * [Jenkins](https://jenkins.io/)
 	* [TeamCity](https://www.jetbrains.com/teamcity/)
+	
+* Continuous Delivery
+    * [Octopus](https://octopus.com/)
