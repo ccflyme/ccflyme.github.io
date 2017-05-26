@@ -22,3 +22,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     	
 * Interface Automation Testing Frameworks
     * [unittest](https://docs.python.org/2/library/unittest.html) - (Python standard library) Unit testing framework.
+	
+* Continuous Integration
+    * [Jenkins](https://jenkins.io/)
+	* [TeamCity](https://www.jetbrains.com/teamcity/)
