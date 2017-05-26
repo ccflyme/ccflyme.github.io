@@ -17,11 +17,11 @@ A curated list of awesome software testing tools which I have used.
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 * UI Automation Testing
-    * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - Client desktop UI automation testing framework.
-    * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web UI automation testing framework.
+    * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - 客户端UI自动化测试.
+    * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web端UI自动化测试.
     	
 * Interface Automation Testing
-    * [unittest](https://docs.python.org/2/library/unittest.html) - (Python standard library) Unit testing framework.
+    * [unittest](https://docs.python.org/2/library/unittest.html) - 接口自动化测试.
 	
 * Performance Testing
     * [JMeter](http://jmeter.apache.org/)
@@ -36,3 +36,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * Script
     * [Python](https://www.python.org/)
     * [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
+	
+* Other Tools
+    * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程的好工具，还可以查看具体进程的实时网络使用情况
+    * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif的好工具，方便开发更加直观的查看Bug出现情况
+    * [BareTail](https://www.baremetalsoft.com/baretail/) - 查看实时log的工具
+	
