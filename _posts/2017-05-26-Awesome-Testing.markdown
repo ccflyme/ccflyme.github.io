@@ -11,9 +11,9 @@ tags:
 ---
 # Awesome Testing [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Python frameworks, libraries, software and resources.
+A curated list of awesome software testing tools.
 
-Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
+Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 - [Awesome Python](#awesome-python)
     - [Admin Panels](#admin-panels)
