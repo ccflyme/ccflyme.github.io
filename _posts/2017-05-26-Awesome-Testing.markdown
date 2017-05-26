@@ -15,29 +15,6 @@ A curated list of awesome software testing tools.
 
 Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-- [Awesome Python](#awesome-python)
-    - [Admin Panels](#admin-panels)
-    - [Algorithms and Design Patterns](#algorithms-and-design-patterns)
-    - [Anti-spam](#anti-spam)
-    - [Asset Management](#asset-management)
-    - [Audio](#audio)
-- [Services](#services)
-    - [Code Quality](#code-quality)
-    - [Continuous Integration](#continuous-integration)
-- [Resources](#resources)
-    - [Podcasts](#podcasts)
-    - [Twitter](#twitter)
-    - [Websites](#websites)
-    - [Weekly](#weekly)
-- [Other Awesome Lists](#other-awesome-lists)
-- [Contributing](#contributing)
-
-- - -
-
-## Testing
-
-*Libraries for testing codebases and generating test data.*
-
 * Testing Frameworks
     * [hypothesis](https://github.com/HypothesisWorks/hypothesis-python) - Hypothesis is an advanced Quickcheck style property based testing library.
     * [mamba](http://nestorsalceda.github.io/mamba/) - The definitive testing tool for Python. Born under the banner of BDD.
