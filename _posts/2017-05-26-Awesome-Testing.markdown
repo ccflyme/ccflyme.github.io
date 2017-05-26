@@ -19,7 +19,6 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * UI Automation Testing Frameworks
     * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - Client desktop UI automation testing framework.
     * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web UI automation testing framework.
-    
-	
+    	
 * Interface Automation Testing Frameworks
     * [unittest](https://docs.python.org/2/library/unittest.html) - (Python standard library) Unit testing framework.
