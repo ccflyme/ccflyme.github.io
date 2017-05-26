@@ -39,7 +39,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
 	
 * Other Tools
-    * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程的好工具，还可以查看具体进程的实时网络使用情况
-    * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif的好工具，方便开发更加直观的查看Bug出现情况
-    * [BareTail](https://www.baremetalsoft.com/baretail/) - 查看实时log的工具
+    * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程
+    * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif
+    * [BareTail](https://www.baremetalsoft.com/baretail/) - 查看实时log
 	
