@@ -54,3 +54,11 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * 测试工作管理
     * 每日晨会 - 每人讲述昨天完成的工作，今天将要做的事，以及遇到的一些问题
 	
+## 开发技能
+
+* Web Development Framework
+    * [django](https://www.djangoproject.com/) - Python web开发框架
+	* [play](https://www.playframework.com/) - Java web开发框架
+	* [ASP.NET Boilerplate](https://www.aspnetboilerplate.com/) - .Net web开发框架
+	
+	
