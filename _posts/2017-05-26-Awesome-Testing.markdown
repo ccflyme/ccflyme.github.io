@@ -38,6 +38,10 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [Python](https://www.python.org/)
     * [PowerShell](https://en.wikipedia.org/wiki/PowerShell)
 	
+* 版本管理
+    * [GitLab](https://about.gitlab.com/)
+    * [Gogs](https://gogs.io/)
+	
 * Other Tools
     * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程
     * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif
