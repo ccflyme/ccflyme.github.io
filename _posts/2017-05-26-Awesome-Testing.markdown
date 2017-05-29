@@ -57,6 +57,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 ---
 	
 ## 开发技能
+>QA同学除了要知道怎么测试之外，最好对相应的开发技能也有所掌握。这样不仅对测试的对象有更加深入的了解外，也方便自己和Dev同学对问题能做更深入的沟通。
 
 * Web Development Framework
     * [django](https://www.djangoproject.com/) - Python web开发框架
