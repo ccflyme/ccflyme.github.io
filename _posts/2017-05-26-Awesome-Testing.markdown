@@ -50,6 +50,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [HeidiSQL](https://www.heidisql.com/) - SQL连接工具.	
     * [ConEmu](https://conemu.github.io/) - 命令行工具.	
 	* [Fiddler](http://www.telerik.com/fiddler) - http协议调试代理工具.	
+	* [itellyou](http://msdn.itellyou.cn/) - 微软资源下载网站.	
 	
 * 测试工作管理
     * 每日晨会 - 每人讲述昨天完成的工作，今天将要做的事，以及遇到的一些问题
