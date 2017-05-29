@@ -49,4 +49,5 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [ASG-Remote Desktop](http://www.visionapp.com/germany/solutions/asg-remote-desktop.html) - 远程桌面工具.
     * [HeidiSQL](https://www.heidisql.com/) - SQL连接工具.	
     * [ConEmu](https://conemu.github.io/) - 命令行工具.	
+	* [Fiddler](http://www.telerik.com/fiddler) - http协议调试代理工具.	
 	
