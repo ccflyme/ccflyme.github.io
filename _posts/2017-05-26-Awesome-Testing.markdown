@@ -51,6 +51,8 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [ConEmu](https://conemu.github.io/) - 命令行工具.	
 	* [Fiddler](http://www.telerik.com/fiddler) - http协议调试代理工具.	
 	* [itellyou](http://msdn.itellyou.cn/) - 微软资源下载网站.	
+	* [Reloader Activator](http://windowsactivators.com/re-loader/) - Windows和Office激活工具，试了那么多工具，还是这款最好用^_^	
+	* [Sleep Preventer](http://download.cnet.com/Sleep-Preventer/3000-2094_4-75811007.html) - Windows防睡眠工具，在自动化测试中很有用处。	
 	
 * 测试工作管理
     * 每日晨会 - 每人讲述昨天完成的工作，今天将要做的事，以及遇到的一些问题
