@@ -84,5 +84,9 @@ friends: [
     {
       title: "当然我在扯淡",
         href: "http://www.yinwang.org/"
+    },
+    {
+      title: "DebugTalk",
+        href: "http://debugtalk.com/"
     }
 ]
