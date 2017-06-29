@@ -20,13 +20,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - 客户端UI自动化测试.
     * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web端UI自动化测试.
     	
-* Interface Automation Testing
+* Interface Testing
     * [unittest](https://docs.python.org/2/library/unittest.html) - 接口自动化测试.
+	* [Postman](https://www.getpostman.com/)
 	
 * Performance Testing
     * [JMeter](http://jmeter.apache.org/)
-	* [Postman](https://www.getpostman.com/)
-	
+		
 * Continuous Integration
     * [Jenkins](https://jenkins.io/)
 	* [TeamCity](https://www.jetbrains.com/teamcity/)
