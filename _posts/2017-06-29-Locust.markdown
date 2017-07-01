@@ -10,4 +10,8 @@ tags:
     - Locust
 ---
 最近研究Locust，觉得用它来做性能测试挺方便的，使用Python编写，而且开源，可以研究一下它的源码，还可以在它的基础上做二次开发。
+
+安装最新版Locust
+
+	pip install git+git://github.com/locustio/locust.git@master#egg=locustio
 	
