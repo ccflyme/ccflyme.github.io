@@ -26,6 +26,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 	
 * Performance Testing
     * [JMeter](http://jmeter.apache.org/)
+	* [Locust](http://locust.io/)
 		
 * Continuous Integration
     * [Jenkins](https://jenkins.io/)
