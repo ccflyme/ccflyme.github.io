@@ -15,3 +15,10 @@ tags:
 
 	pip install git+git://github.com/locustio/locust.git@master#egg=locustio
 	
+1. 部署一个用来测试的网站
+2. 定义好测试场景
+3. 写性能测试脚本
+4. 执行测试
+5. 分析测试数据
+6. 给出测试报告
+	
