@@ -13,5 +13,8 @@ tags:
 使用工具：
 1. PyCharm专业版
 2. Python2.7
+3. virtualenv
 3. mysql
 4. HeidiSQL
+
+安装虚拟环境
