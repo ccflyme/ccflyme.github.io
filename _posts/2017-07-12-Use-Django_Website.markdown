@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-07-12
 author:     "Tesla9527"
 header-img: "img/post-bg-alitrip.jpg"
-catalog:    false
+catalog:    true
 tags:
     - Django
 ---
