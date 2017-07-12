@@ -10,4 +10,8 @@ tags:
     - Django
 ---
 
-	
+使用工具：
+1. PyCharm专业版
+2. Python2.7
+3. mysql
+4. HeidiSQL
