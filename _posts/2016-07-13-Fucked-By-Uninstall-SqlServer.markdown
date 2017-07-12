@@ -7,7 +7,7 @@ author:     "Tesla9527"
 header-img: "img/home-bg-o.jpg"
 catalog:    false
 tags:
-    - 工作
+    - MS SQL Server
 ---
 今天发现自己的C盘空间只剩下3G，直接彪红了。于是去查到底是什么占用了这么大的空间，后来发现Sql Server占了很大的空间，于是自己作死，进去把mdf文件和ldf文件
 全部删除了，然后悲剧发生了。
