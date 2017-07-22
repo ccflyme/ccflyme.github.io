@@ -8,5 +8,5 @@
 - Own a house
 - Have a job which I loved
 - Have a career which I can control it by myself
-- Insist on doing things every day (fitness, reading, playing games, watching YouTube videos, playing electronic piano...
+- Insist on doing things every day (fitness, reading, playing games, watching YouTube videos, playing electronic piano...)
 - Constantly unlock the interested skills
