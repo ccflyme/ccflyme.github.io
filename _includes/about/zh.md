@@ -1,4 +1,4 @@
- <blockquote>
+    <blockquote>
         我为之奋斗的生活方式
     </blockquote>
     <li>有一个属于自己的房子</li>
