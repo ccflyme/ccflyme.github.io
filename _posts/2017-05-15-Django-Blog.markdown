@@ -82,6 +82,10 @@ def index(request):
 
 ## Design with HTML/CSS
 
+>We're going to use Bootstrap, which is a popular HTML/CSS and some javascript package that greatly helps people who are design deficient. Bootstrap isn't going to fix you entirely, but it can at least lend a helping hand. 
+
+这篇介绍了使用Bootstrap，让我们页面的样式更好看一点。和上一篇一样，重要的是理解css文件是如何被引用到的。
+
 ## Jinja Variables
 
 ## Beginning a Blog
