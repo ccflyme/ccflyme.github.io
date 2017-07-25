@@ -18,24 +18,24 @@ tags:
 
 下面对细节进行分析：
 
-## First Website - Django Web Development Tutorial
+## First Website
 
-## Jinja Templates - Django Web Development Tutorial
+## Jinja Templates
 
-## Design with HTML/CSS - Django Web Development Tutorial
+## Design with HTML/CSS
 
-## Jinja Variables - Django Web Development Tutorial
+## Jinja Variables
 
-## Beginning a Blog - Django Web Development Tutorial
+## Beginning a Blog
 
-## Views and Templates - Django Web Development Tutorial
+## Views and Templates
 
-## Database migrations - Django Web Development Tutorial
+## Database migrations
 
-## Admin control panel - Django Web Development Tutorial
+## Admin control panel
 
-## Finishing blog - Django Web Development Tutorial
+## Finishing blog
 
-## Publishing Django Project to a web server tutorial
+## Publishing
 
 ## Securing Django web server with SSL - HTTPS and Lets Encrpyt
