@@ -71,6 +71,12 @@ INSTALLED_APPS = [
 >Jinja is a Python templating engine, aimed at helping you to do dynamic things with your HTML like passing variables, running simple logic, and more! With Jinja, you will notice we are using {% %}, this denotes logic. For variables, you will see {%{% }}.
 
 Jinja模板的使用，可以查阅相关文档。和上一篇相比，view.py中的内容修改了。之前是直接返回HttpResponse内容，现在通过render html的方式。html内容的组成就通过Jinja引擎来做了。
+```python
+from django.shortcuts import render
+
+def index(request):
+    return render(request, 'personal/home.html')
+```
 
 ## Design with HTML/CSS
 
