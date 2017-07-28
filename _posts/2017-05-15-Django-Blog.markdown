@@ -54,9 +54,6 @@ urlpatterns = [
 
 mysite/settings.py
 ```python
-# ...this is just a slice of code within settings.py 
-# do not delete the other code
-# just add 'webapp' to the list.
 INSTALLED_APPS = [
     'webapp',
     'django.contrib.admin',
