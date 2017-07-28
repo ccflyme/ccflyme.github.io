@@ -88,6 +88,8 @@ def index(request):
 
 ## Jinja Variables
 
+>In this tutorial, we're going to cover passing variables from Python to our HTML templates.
+
 ## Beginning a Blog
 
 ## Views and Templates
