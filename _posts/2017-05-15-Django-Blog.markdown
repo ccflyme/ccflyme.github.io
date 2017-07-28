@@ -151,6 +151,13 @@ class Post(models.Model):
 这篇介绍了如何做db migrations,模式和C#里面比较像。
 
 ## Admin control panel
+这篇介绍了Django自带的admin系统，使用过后发现真是超级方便。如果还没有用户的话，使用python manage.py createsuperuser创建一个user就可以登录admin系统。如果要注册某张表的话，在对应的app里面的admin.py里面添加一下就可以了。
+```python
+from django.contrib import admin
+from blog.models import Post
+
+admin.site.register(Post)
+```
 
 ## Finishing blog
 
