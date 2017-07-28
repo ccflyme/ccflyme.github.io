@@ -139,30 +139,7 @@ class Post(models.Model):
 
 >we're going to employ some further Django magic and skip that part entirely with some generic views.
 
-- blog/urls.py
 
-```python
-from django.conf.urls import url, include
-from django.views.generic import ListView, DetailView
-from blog.models import Post
-
-urlpatterns = [ 
-                url(r'^$', ListView.as_view(
-                                    queryset=Post.objects.all().order_by("-date")[:25],
-                                    template_name="blog/blog.html")),
-            ]
-```
-
-- blog/templates/blog/blog.html
-
-```python
-{% extends "personal/header.html" %}
-{% block content %}
-	{% for post in object_list %}
-		<h5>{{ post.date|date:"Y-m-d" }}<a href="/blog/{{post.id}}">  {{ post.title }}</a></h5>
-	{% endfor %}
-{% endblock %}
-```
 
 ## Database migrations
 
