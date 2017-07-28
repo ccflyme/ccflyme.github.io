@@ -94,6 +94,49 @@ def index(request):
 
 ## Beginning a Blog
 
+>We're going to cover working with models in Django
+
+- python manage.py startapp blog 新建一个app "blog"
+- 在settings.py中install blog app
+	
+	INSTALLED_APPS = [
+    'personal',
+    'blog',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
+- 配置blog app的url
+
+```python
+from django.conf.urls import url, include
+from django.contrib import admin
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^', include('personal.urls')),
+    url(r'^blog/', include('blog.urls')),
+]
+```
+
+- 新建blog的model class
+
+```python
+from django.db import models
+
+class Post(models.Model):
+    title = models.CharField(max_length = 140)
+    body = models.TextField()
+    date = models.DateTimeField()
+
+    def __str__(self):
+        return self.title
+```
+
 ## Views and Templates
 
 ## Database migrations
