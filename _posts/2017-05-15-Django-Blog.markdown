@@ -90,6 +90,8 @@ def index(request):
 
 >In this tutorial, we're going to cover passing variables from Python to our HTML templates.
 
+这篇新建了一个contact的方法，用来render contact page的内容。其中content的内容通过变量的方式传入。关于url的配置，文中讲到了需要将settings.py中include的personal.urls前面的r'^$'改为r'^'，因为r'^$'说明通过url到personal app不允许有任何text.
+
 ## Beginning a Blog
 
 ## Views and Templates
