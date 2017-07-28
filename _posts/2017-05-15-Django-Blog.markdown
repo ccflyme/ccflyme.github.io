@@ -57,15 +57,6 @@ urlpatterns = [
 
 mysite/settings.py
 
-INSTALLED_APPS = [
-    'webapp',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
 
 ## Jinja Templates
 
