@@ -148,6 +148,7 @@ class Post(models.Model):
 需要研究一下Django中的generic views。
 
 ## Database migrations
+这篇介绍了如何做db migrations,模式和C#里面比较像。
 
 ## Admin control panel
 
