@@ -22,7 +22,6 @@ tags:
 ## First Website
 
 >这篇讲解了如何在project里面通过manage.py新建app，在views.py文件中定义方法，在新建的app中配置url.py以及project的url.py，在settings.py中include新建的app。
-
 webapp/views.py
 ```python
 from django.shortcuts import render
@@ -110,7 +109,6 @@ def index(request):
 ]
 
 - 配置blog app的url
-
 ```python
 from django.conf.urls import url, include
 from django.contrib import admin
@@ -123,7 +121,6 @@ urlpatterns = [
 ```
 
 - 新建blog的model class
-
 ```python
 from django.db import models
 
