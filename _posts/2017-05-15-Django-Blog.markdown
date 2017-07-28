@@ -109,6 +109,7 @@ def index(request):
 ]
 
 - 配置blog app的url
+
 ```python
 from django.conf.urls import url, include
 from django.contrib import admin
@@ -121,6 +122,7 @@ urlpatterns = [
 ```
 
 - 新建blog的model class
+
 ```python
 from django.db import models
 
@@ -136,7 +138,9 @@ class Post(models.Model):
 ## Views and Templates
 
 >we're going to employ some further Django magic and skip that part entirely with some generic views.
+
 blog/urls.py
+
 ```python
 from django.conf.urls import url, include
 from django.views.generic import ListView, DetailView
@@ -150,6 +154,7 @@ urlpatterns = [
 ```
 
 blog/templates/blog/blog.html
+
 ```python
 {% extends "personal/header.html" %}
 {% block content %}
