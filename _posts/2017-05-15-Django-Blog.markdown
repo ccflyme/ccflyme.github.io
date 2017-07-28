@@ -53,7 +53,7 @@ urlpatterns = [
 ```
 
 mysite/settings.py
-```python
+```
 INSTALLED_APPS = [
     'webapp',
     'django.contrib.admin',
