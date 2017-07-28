@@ -145,7 +145,7 @@ class Post(models.Model):
 
 >we're going to employ some further Django magic and skip that part entirely with some generic views.
 
-
+需要研究一下Django中的generic views。
 
 ## Database migrations
 
