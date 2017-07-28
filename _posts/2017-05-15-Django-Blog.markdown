@@ -90,7 +90,7 @@ def index(request):
 
 >In this tutorial, we're going to cover passing variables from Python to our HTML templates.
 
-这篇新建了一个contact的方法，用来render contact page的内容。其中content的内容通过变量的方式传入。关于url的配置，文中讲到了需要将settings.py中include的personal.urls前面的r'^$'改为r'^'，因为r'^$'说明通过url到personal app不允许有任何text.
+这篇新建了一个contact的方法，用来render contact page的内容。其中content的内容通过变量的方式传入。关于url的配置，文中讲到了需要将settings.py中include的personal.urls前面的r'^$'改为r'^'，因为r'^$'说明通过url到personal app不允许有任何text。看到这里，突然有了一种和我做UI自动化测试一种类似的设计，就是page object的概念。做自动化测试时，是以page为对象，来存储ui元素，已经页面上的操作方法。这里开发网站的时候，貌似也是以page的概念。通过url路由到对应的view里面的方法，然后这个方法又将内容render出来。不论这个内容是静态的，还是通过各种model读取展示出来的。
 
 ## Beginning a Blog
 
