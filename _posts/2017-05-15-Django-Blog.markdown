@@ -161,6 +161,3 @@ admin.site.register(Post)
 
 ## Finishing blog
 
-## Publishing
-
-## Securing Django
