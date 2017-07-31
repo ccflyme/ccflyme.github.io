@@ -24,7 +24,6 @@ tags:
 >这篇讲解了如何在project里面通过manage.py新建app，在views.py文件中定义方法，在新建的app中配置url.py以及project的url.py，在settings.py中include新建的app。
 
 - webapp/views.py
-
 ```python
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -34,7 +33,6 @@ def index(request):
 ```
 
 - webapp/urls.py
-
 ```python
 from django.conf.urls import url
 from . import views
@@ -45,7 +43,6 @@ urlpatterns = [
 ```
 
 - mysite/urls.py
-
 ```python
 from django.conf.urls import url,include
 from django.contrib import admin
@@ -57,7 +54,6 @@ urlpatterns = [
 ```
 
 - mysite/settings.py
-
 ```python
 INSTALLED_APPS = [
     'webapp',
@@ -102,7 +98,7 @@ def index(request):
 
 - python manage.py startapp blog 新建一个app "blog"
 - 在settings.py中install blog app
-	
+```python
 	INSTALLED_APPS = [
     'personal',
     'blog',
@@ -113,9 +109,9 @@ def index(request):
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+```
 
 - 配置blog app的url
-
 ```python
 from django.conf.urls import url, include
 from django.contrib import admin
@@ -128,7 +124,6 @@ urlpatterns = [
 ```
 
 - 新建blog的model class
-
 ```python
 from django.db import models
 
@@ -162,7 +157,6 @@ admin.site.register(Post)
 ## Finishing blog
 
 - blog/urls.py
-
 ```python
 from django.conf.urls import url, include
 from django.views.generic import ListView, DetailView
