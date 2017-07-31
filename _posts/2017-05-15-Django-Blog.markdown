@@ -183,8 +183,6 @@ urlpatterns = [
             ]
 ```
 
-- blog/templates/blog/post.html
-
 
 
 
