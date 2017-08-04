@@ -19,6 +19,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * UI Automation Testing
     * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - 客户端UI自动化测试.
     * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web端UI自动化测试.
+	* [pyautogui](https://pyautogui.readthedocs.io/en/latest/) - 通过控制鼠标和键盘来做自动化操作，更方便的是，可以通过识别图像来定位坐标，对于像类似WPF客户端，传统方式做元素定位比较麻烦的，用这个就方便很多。
     	
 * Interface Testing
     * [unittest](https://docs.python.org/2/library/unittest.html) - 接口自动化测试.
