@@ -17,4 +17,13 @@ tags:
 3. mysql
 4. HeidiSQL
 
-安装虚拟环境
+数据库配置：
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'mxonline',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1'
+    }
+}
