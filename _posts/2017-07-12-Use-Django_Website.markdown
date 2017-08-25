@@ -18,6 +18,7 @@ tags:
 4. HeidiSQL
 
 数据库配置：
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -27,3 +28,4 @@ DATABASES = {
         'HOST': '127.0.0.1'
     }
 }
+```
