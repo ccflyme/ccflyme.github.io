@@ -48,7 +48,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程
     * [Cute Screen Recorder](http://www.videotool.net/screen-recorder-free-version.htm) - 录屏生成视频
     * [ScreenToGif](http://www.screentogif.com/) - 录屏生成Gif
-    * [faststone](http://www.faststone.org/) - 截图工具	
+    * [faststone](http://www.faststone.org/) - 截图工具	
     * [BareTail](https://www.baremetalsoft.com/baretail/) - 查看实时log
     * [石墨文档](https://shimo.im) - 在线文档编辑
     * [Teambition](https://www.teambition.com) - 项目协作工具，我本人用来管理个人工作计划
