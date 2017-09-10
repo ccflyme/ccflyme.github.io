@@ -88,5 +88,9 @@ friends: [
     {
       title: "debugtalk",
         href: "http://debugtalk.com/"
+    },
+    {
+      title: "interactivepython",
+        href: "http://interactivepython.org"
     }
 ]
