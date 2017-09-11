@@ -19,7 +19,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * UI Automation Testing
     * [Coded UI](https://msdn.microsoft.com/en-us/library/dd286726.aspx) - 客户端UI自动化测试.
     * [WebDriver](http://www.seleniumhq.org/projects/webdriver/) - Web端UI自动化测试.
-    * [pyautogui](https://pyautogui.readthedocs.io/en/latest/) - 基于图像识别的UI自动化测试.
+    * [pyautogui](https://pyautogui.readthedocs.io/en/latest/) - 基于图像识别的UI自动化测试.
     * [Sikuli](http://www.sikuli.org/) - 基于图像识别的UI自动化测试.
     	
 * Interface Testing
