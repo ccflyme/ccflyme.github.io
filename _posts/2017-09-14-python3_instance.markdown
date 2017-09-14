@@ -94,3 +94,52 @@ s = (a + b + c) / 2
 area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
 print('三角形面积为 %0.2f' %area)
 ```
+Python 随机数生成
+```python
+# -*- coding: UTF-8 -*-
+
+# Filename : test.py
+# author by : www.runoob.com
+
+# 生成 0 ~ 9 之间的随机数
+
+# 导入 random(随机数) 模块
+import random
+
+print(random.randint(0,9))
+```
+Python 摄氏温度转华氏温度
+```python
+# -*- coding: UTF-8 -*-
+
+# Filename : test.py
+# author by : www.runoob.com
+
+# 用户输入摄氏温度
+
+# 接收用户收入
+celsius = float(input('输入摄氏温度: '))
+
+# 计算华氏温度
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f 摄氏温度转为华氏温度为 %0.1f ' %(celsius,fahrenheit))
+```
+Python 交换变量
+```python
+# -*- coding: UTF-8 -*-
+
+# Filename : test.py
+# author by : www.runoob.com
+
+# 用户输入
+
+x = input('输入 x 值: ')
+y = input('输入 y 值: ')
+
+# 不使用临时变量
+x, y = y, x
+
+print('交换后 x 的值为: {}'.format(x))
+print('交换后 y 的值为: {}'.format(y))
+```
+
