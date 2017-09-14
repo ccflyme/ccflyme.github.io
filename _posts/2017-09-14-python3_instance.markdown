@@ -558,3 +558,92 @@ mm = int(input("输入月份: "))
 # 显示日历
 print(calendar.month(yy,mm))
 ```
+Python 使用递归斐波那契数列
+```python
+# Filename : test.py
+# author by : www.runoob.com
+
+def recur_fibo(n):
+   """递归函数
+   输出斐波那契数列"""
+   if n <= 1:
+       return n
+   else:
+       return(recur_fibo(n-1) + recur_fibo(n-2))
+
+
+# 获取用户输入
+nterms = int(input("您要输出几项? "))
+
+# 检查输入的数字是否正确
+if nterms <= 0:
+   print("输入正数")
+else:
+   print("斐波那契数列:")
+   for i in range(nterms):
+       print(recur_fibo(i))
+```
+Python 文件 IO
+```python
+# Filename : test.py
+# author by : www.runoob.com
+
+# 写文件
+with open("test.txt", "wt") as out_file:
+    out_file.write("该文本会写入到文件中\n看到我了吧！")
+
+# Read a file
+with open("test.txt", "rt") as in_file:
+    text = in_file.read()
+
+print(text)
+```
+Python 字符串判断
+```python
+# Filename : test.py
+# author by : www.runoob.com
+
+# 测试实例一
+print("测试实例一")
+str = "runoob.com"
+print(str.isalnum()) # 判断所有字符都是数字或者字母
+print(str.isalpha()) # 判断所有字符都是字母
+print(str.isdigit()) # 判断所有字符都是数字
+print(str.islower()) # 判断所有字符都是小写
+print(str.isupper()) # 判断所有字符都是大写
+print(str.istitle()) # 判断所有单词都是首字母大写，像标题
+print(str.isspace()) # 判断所有字符都是空白字符、\t、\n、\r
+
+print("------------------------")
+
+# 测试实例二
+print("测试实例二")
+str = "runoob"
+print(str.isalnum())
+print(str.isalpha())
+print(str.isdigit())
+print(str.islower())
+print(str.isupper())
+print(str.istitle())
+print(str.isspace()) 
+```
+Python 字符串大小写转换
+```python
+# Filename : test.py
+# author by : www.runoob.com
+
+str = "www.runoob.com"
+print(str.upper())          # 把所有字符中的小写字母转换成大写字母
+print(str.lower())          # 把所有字符中的大写字母转换成小写字母
+print(str.capitalize())     # 把第一个字母转化为大写字母，其余小写
+print(str.title())          # 把每个单词的第一个字母转化为大写，其余小写 
+```
+Python 计算每个月天数
+```python
+# Filename : test.py
+# author by : www.runoob.com
+
+import calendar
+monthRange = calendar.monthrange(2016,9)
+print(monthRange)
+```
