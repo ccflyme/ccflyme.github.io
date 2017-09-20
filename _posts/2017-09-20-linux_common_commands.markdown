@@ -2,7 +2,7 @@
 layout:     post
 title:      "Linux常用命令（转载）"
 subtitle:   ""
-date:       2017-09-14
+date:       2017-09-20
 author:     "Tesla9527"
 header-img: "img/post-bg-alitrip.jpg"
 catalog:    false
