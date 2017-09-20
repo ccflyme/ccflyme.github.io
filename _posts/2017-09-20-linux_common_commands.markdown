@@ -12,7 +12,9 @@ tags:
 原文地址：
 [http://www.cnblogs.com/laov/p/3541414.html](http://www.cnblogs.com/laov/p/3541414.html)
 
-**常用指令
+---
+
+##常用指令
 
 ls　　        显示文件或目录
 
