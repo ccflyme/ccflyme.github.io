@@ -92,5 +92,9 @@ friends: [
     {
       title: "interactivepython",
         href: "http://interactivepython.org"
+    },
+    {
+      title: "王焱的博客",
+        href: "https://tzwlwy.github.io/"
     }
 ]
