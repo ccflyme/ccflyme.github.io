@@ -96,5 +96,9 @@ friends: [
     {
       title: "王焱的博客",
         href: "https://tzwlwy.github.io/"
+    },
+    {
+      title: "leetcode",
+        href: "https://leetcode.com/"
     }
 ]
