@@ -100,5 +100,9 @@ friends: [
     {
       title: "leetcode",
         href: "https://leetcode.com/"
+    },
+    {
+      title: "diveintopython3",
+        href: "http://www.diveintopython3.net/"
     }
 ]
