@@ -44,7 +44,7 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 * 版本管理
     * [GitLab](https://about.gitlab.com/)
     * [Gogs](https://gogs.io/)
-	
+
 * Other Tools
     * [Process Explorer](https://technet.microsoft.com/en-us/sysinternals/processexplorer.aspx) - 监控进程
     * [Cute Screen Recorder](http://www.videotool.net/screen-recorder-free-version.htm) - 录屏生成视频
@@ -61,9 +61,9 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python).
     * [itellyou](http://msdn.itellyou.cn/) - 微软资源下载网站.	
     * [Reloader Activator](http://windowsactivators.com/re-loader/) - Windows和Office激活工具，试了那么多工具，还是这款最好用^_^	
     * [Sleep Preventer](http://download.cnet.com/Sleep-Preventer/3000-2094_4-75811007.html) - Windows防睡眠工具，在自动化测试中很有用处。	
-    * [Lantern](https://github.com/getlantern/lantern) - 科学上网工具	
+    * [bandwagon](https://bandwagonhost.com) - bandwagon vps,走OpenVPN协议
     * [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) - 浏览器代理插件。在科学上学或者使用JMeter录制脚本时，能方便地控制请求走向。	
-	
+
 * 测试工作管理
     * 每日晨会 - 每人讲述昨天完成的工作，今天将要做的事，以及遇到的一些问题
 
