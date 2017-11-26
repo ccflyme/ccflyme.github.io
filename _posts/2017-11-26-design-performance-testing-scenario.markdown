@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-11-26
 author:     "Tesla9527"
 header-img: "img/post-bg-alitrip.jpg"
-catalog:    false
+catalog:    true
 tags:
     - Performance Testing
 ---
