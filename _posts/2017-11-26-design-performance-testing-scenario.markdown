@@ -67,7 +67,7 @@ tags:
 	输出说明：并发用户数	TPS    响应时间		CPU（应用服务器）	CPU（数据库服务器）		MEM（应用服务器）	MEM（数据库服务器）
 
 ## 监控
-dstat
-top
-nmon
-nmonanalyser
+	dstat
+	top
+	nmon
+	nmonanalyser
