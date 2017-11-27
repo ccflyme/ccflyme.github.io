@@ -8,6 +8,7 @@ header-img: "img/post-bg-alitrip.jpg"
 catalog:    false
 tags:
     - Python
+    - Automation Testing
 ---
 
 原框架地址：
