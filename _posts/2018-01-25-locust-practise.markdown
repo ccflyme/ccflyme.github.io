@@ -29,16 +29,21 @@ class UserBehavior(TaskSet):
         except queue.Empty:
             print("test data run out, test ended.")
             exit(0)
-		# 替换报文中需要替换的值	
+# 替换报文中需要替换的值	
         query = query.replace('APPLY_NO_Value', apply_no)
         query = query.replace('CLIENT_NAME_Value', test_data['UserName'])
         query = query.replace('MOBILE_Value', test_data['Mobile'])
         query = query.replace('GLOBAL_ID_Value', test_data['GlobalId'])
-        with self.client.post("/someroute", data=query, catch_response=True) as rp:
+        with self.client.post("/ESBServer", data=query, catch_response=True) as rp:
             rp.encoding = 'utf-8'
             response_code = search("""<RET_CODE attr="field">(.*)</RET_CODE>""", rp.text).group(1)
             response_msg = search("""<RET_MSG attr="field">(.*)</RET_MSG>""", rp.text).group(1)
-            print("申请单号: " + apply_no + " 响应码: " + response_code + " 响应信息: " + str(response_msg))
+            output = "申请单号: " + apply_no + " 响应码: " + response_code + " 响应信息: " + str(response_msg)
+            if response_code == '000000':
+                rp.success()                
+            else:
+                rp.failure("初审失败 | " + output)
+            print(output)
         self.locust.user_data_queue.put_nowait(test_data)
 
 
