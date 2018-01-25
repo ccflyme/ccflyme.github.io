@@ -104,5 +104,9 @@ friends: [
     {
       title: "diveintopython3",
         href: "http://www.diveintopython3.net/"
+    },
+        {
+      title: "python3-cookbook",
+        href: "http://python3-cookbook.readthedocs.io/zh_CN/latest/index.html"
     }
 ]
