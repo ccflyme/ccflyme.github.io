@@ -29,7 +29,7 @@ class UserBehavior(TaskSet):
         except queue.Empty:
             print("test data run out, test ended.")
             exit(0)
-# 替换报文中需要替换的值	
+		# 替换报文中需要替换的值	
         query = query.replace('APPLY_NO_Value', apply_no)
         query = query.replace('CLIENT_NAME_Value', test_data['UserName'])
         query = query.replace('MOBILE_Value', test_data['Mobile'])
