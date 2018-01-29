@@ -38,3 +38,32 @@ if prod([3, 5, 7, 9]) == 945:
 else:
     print('测试失败!')
 ```
+
+```python
+# 利用map和reduce编写一个str2float函数，把字符串'123.456'转换成浮点数123.456
+from functools import reduce
+
+
+def str2float(s):
+    digits = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '.': -1}
+
+    def fn(x, y):
+        if y == -1:
+            return x
+        else:
+            return x * 10 + y
+
+    def char2num(c):
+        return digits[c]
+
+    result = reduce(fn, map(char2num, s))
+    flag = 1
+    for i in range(len(s) - 1, 0, -1):
+        if s[i] == '.':
+            break
+        flag *= 10
+    return result / flag
+
+# Test
+print(str2float('123.456'))
+```
