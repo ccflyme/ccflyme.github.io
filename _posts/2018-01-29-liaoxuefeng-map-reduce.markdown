@@ -17,8 +17,24 @@ tags:
 def normalize(name):
     return name[0].upper() + name[1:].lower()
 
-
+# Test
 L1 = ['adam', 'LISA', 'barT']
 L2 = list(map(normalize, L1))
 print(L2)
+```
+
+```python
+# Python提供的sum()函数可以接受一个list并求和，请编写一个prod()函数，可以接受一个list并利用reduce()求积
+from functools import reduce
+
+
+def prod(L):
+    return reduce(lambda x, y: x * y, L)
+
+# Test
+print('3 * 5 * 7 * 9 =', prod([3, 5, 7, 9]))
+if prod([3, 5, 7, 9]) == 945:
+    print('测试成功!')
+else:
+    print('测试失败!')
 ```
