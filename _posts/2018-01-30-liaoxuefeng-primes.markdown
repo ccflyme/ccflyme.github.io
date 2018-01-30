@@ -10,7 +10,6 @@ tags:
     - Python
 ---
 方法一
-
 ```python
 # 构造一个从3开始的奇数序列
 def _odd_iter():
@@ -43,7 +42,6 @@ for n in primes():
 ```
 
 方法二
-
 ```python
 import math
 
