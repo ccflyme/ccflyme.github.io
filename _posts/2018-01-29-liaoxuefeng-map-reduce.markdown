@@ -2,7 +2,7 @@
 layout:     post
 title:      "廖雪峰python课后作业-map/reduce"
 subtitle:   ""
-date:       2018-01-28
+date:       2018-01-29
 author:     "Tesla9527"
 header-img: "img/post-bg-alitrip.jpg"
 catalog:    false
