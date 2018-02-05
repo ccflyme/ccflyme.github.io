@@ -112,5 +112,9 @@ friends: [
     {
       title: "会飞的污熊",
         href: "https://www.xncoding.com/"
+    },
+    {
+      title: "500 Lines or Less",
+        href: "http://www.aosabook.org/en/index.html"
     }
 ]
