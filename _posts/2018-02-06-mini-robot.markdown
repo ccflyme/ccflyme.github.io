@@ -10,6 +10,7 @@ tags:
     - Python
 ---
 >本文转载自微信公众号菜鸟学Python，作者：xinxin。
+
 ```python
 def chat_robot():
     res = ''
