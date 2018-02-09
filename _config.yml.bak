@@ -1,21 +1,21 @@
 # Site settings
-title: CC's Blog
-SEOTitle: 陈晨的博客 | CC's Blog
+title: Tesla's Blog
+SEOTitle: 刘林的博客 | Tesla's Blog
 header-img: img/home-bg.jpg
-email: 511961006@qq.com
+email: tesla9527@gmail.com
 description: "There's a bug..."
 keyword: ""
-url: "http://ccflyme.github.io/"              # your host, for absolute URL
+url: "http://tesla9527.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     ccflyme
-facebook_username:  ccflyme
-github_username:    ccflyme
-zhihu_username:    ccflyme
+weibo_username:     Tesla9527
+facebook_username:  tesla.lau.9
+github_username:    Tesla9527
+zhihu_username:    tesla-lau
 
 
 
